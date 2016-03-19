@@ -15,6 +15,8 @@ def find_max_sum(arr):
     >> 15
     find_max_sum([5, 5, 10, 100, 10, 5])
     >> 110
+    find_max_sum([])
+    >> 0
     """
     incl, excl, excl_new  = arr[0], 0, 0
     for elem in arr[1:]:
